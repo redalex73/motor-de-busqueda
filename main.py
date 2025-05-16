@@ -6,7 +6,13 @@ from search_engine import search
 from eval import evaluate
 
 def main():
-    ray.init(include_dashboard=False)
+    import ray
+
+    ray.init(
+    address="127.0.0.1:6379",
+    include_dashboard=False,
+    ignore_reinit_error=True,
+    )
 
     image_paths, text_paths = load_data_paths("data/")
 
