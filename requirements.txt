@@ -1,0 +1,6 @@
+ray==2.45.0
+torch
+numpy
+faiss-cpu
+mlflow
+open_clip_torch
