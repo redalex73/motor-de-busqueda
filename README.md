@@ -6,7 +6,6 @@ Este proyecto implementa un sistema básico de búsqueda semántica distribuida 
 
 - Cálculo paralelo de embeddings de imágenes y textos con Ray.
 - Búsqueda semántica basada en similitud de coseno entre embeddings.
-- Indexado y búsqueda eficiente con FAISS (opcional).
 - Evaluación de la precisión de recuperación mediante métricas simples.
 - Registro y seguimiento de experimentos con MLflow.
 - Código modular y fácilmente ampliable.
@@ -17,6 +16,5 @@ Este proyecto implementa un sistema básico de búsqueda semántica distribuida 
 - Ray (versión recomendada: 2.45.0)
 - torch
 - numpy
-- faiss-cpu
 - mlflow
 - OpenCLIP (instalación manual o a través de pip)
